@@ -3,7 +3,7 @@ import {cartContext} from './cart' ;
 import {contextApp} from './cart'
 
 const Items = ({id,title, description, price, img, quantity}) => {
-    const {removeItem, increment, decrement} = useContext(contextApp)
+    const {removeItem, increment, decrement} = useContext(contextApp) 
     return (
         <>
             <div className='items-info'>
